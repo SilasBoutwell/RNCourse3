@@ -18,7 +18,6 @@ export default function App() {
           headerTintColor: 'white',
           contentStyle: { backgroundColor: '#3f2f25' },
           headerTitleStyle: { fontWeight: 'bold' },
-          headerTitleAlign: 'center',
         }}>
           <Stack.Screen
             name='MealsCategories'
@@ -41,7 +40,7 @@ export default function App() {
             name='MealDetail'
             component={MealDetailScreen}
             options={{
-              title: 'Meal Details',
+              title: 'Meal Details'
             }}
           />
         </Stack.Navigator>
